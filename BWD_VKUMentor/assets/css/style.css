@@ -648,6 +648,7 @@ body.nav-active {
 #site-footer .social-icons {
   text-align: right;
   padding: 8px;
+  margin-right: 64px;
 }
 #site-footer .social-icons a {
   width: 40px;
@@ -866,8 +867,9 @@ body.nav-active {
 
 .topic-card .card-text {
   color: var(--text-wild-blue-yonder);
-  font-size: var(--fontSize-6);
+  font-size: 3.5rem;
   margin-block: 15px 20px;
+  color: whitesmoke;
 }
 
 .btn-group {
@@ -877,8 +879,8 @@ body.nav-active {
 }
 
 .btn-icon {
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   display: grid;
   place-items: center;
   background: var(--bg-prussian-blue);
@@ -1014,7 +1016,7 @@ body.nav-active {
    */
 
   .container {
-    max-width: 540px;
+    /* max-width: 540px; */
     width: 100%;
     margin-inline: auto;
   }
@@ -1112,7 +1114,7 @@ body.nav-active {
    */
 
   .container {
-    max-width: 720px;
+    /* max-width: 720px; */
   }
 
   /**
@@ -1134,7 +1136,7 @@ body.nav-active {
    */
 
   .container {
-    max-width: 930px;
+    /* max-width: 930px; */
   }
 
   /**
@@ -1178,7 +1180,7 @@ body.nav-active {
     width: 100%;
   }
   .container {
-    max-width: 1140px;
+    /* max-width: 1140px; */
   }
 
   body.nav-active {
@@ -1216,6 +1218,6 @@ h1 {
   font-size: var(--fontSize-3);
 }
 #topic-label {
-  font-size: 3.5rem;
+  font-size: 5.5rem;
 }
 /* đánh giá  */
